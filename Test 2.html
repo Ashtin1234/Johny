@@ -1,0 +1,38 @@
+<html>
+<head>
+
+<title>Student Health & Emergency Info Form</title>
+<h1>Student Health & Emergency Info Form</h1>
+</head>
+<body>
+<form>
+<label for="UserName"> Student Name:</label>
+<input type="text" id="UserName" name="UserName" placeholder="First and Last Name" required><br><br>
+<label for="UserAge"> Student Age:</label>
+<input type="number" id="UserAge" name="UserAge" placeholder="Age" required><br><br>
+<label for="UserNumber"> Emergency Contact Number:</label>
+<input type="number" id="UserNumber" name="UserNumber" placeholder="000-000-0000" required><br><br>
+<input type="date">Last Medical Checkup Date:<br><br>
+<label>Does the Student have Allergies or any other medical conditions</label>
+<label for="medical">Yes</label>
+<input type="radio" id="medical" name="Medical" value="Yes"><br><br>
+<label for="medical">No</label>
+<input type="radio" id="medical" name="Medical" value="No"><br><br>
+<label>Any known health conditions</label>
+<label for="conditions">Asthma</label>
+<input type="checkbox" id="Conditions" name="checkboxes" value="None of the above">
+<input type="checkbox" id="condition" name="checkboxes" value="Asthma">
+<label for="conditions"> Vision Problems</label><br><br>
+<input type="checkbox" id="conditions" name="checkboxes" value="Diabetes">
+<label for="Condition">None</label><br><br>
+<input type="checkbox" id="Condition" name="checkboxes" value="Vision Problems">
+<label for="Conditio">None of the Above</label><br><br>
+<input type="checkbox" id="Conditio" name="checkboxes" value="None"><br><br>
+<textarea name="description" rows="50" cols="100" placeholder="Any Special instructions or health notes" required></textarea>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+</body>
+
+
+</html>

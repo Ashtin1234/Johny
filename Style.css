@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(150, 128, 85);
+    
+    }
+     h1{
+    color: rgb(61, 46, 10); font-size: 70px; font-family: cursive;
+     }
+     h2
+    {
+    color: rgb(53, 41, 11);
+    }
+    h4{
+    font-size: x-large;
+    }
+    .header{
+background-color: rgb(207, 149, 113);
+display:flex;
+justify-content:space-around;
+}
+.footer{
+    background-color: rgb(150, 128, 85);
+    display:flex;
+    justify-content: right;
+}
+.project{
+    background-color: rgb(150, 128, 85);
+}
+.menu{
+font-size: xx-large;
+
+}
+.App{
+display:flex;
+flex-wrap:wrap;
+
+}
+
+
+
